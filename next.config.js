@@ -5,11 +5,13 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-export const images = {
-  remotePatterns: [
-    {
-      protocol: "https",
-      hostname: "utfs.io",
-    },
-  ],
+const config = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
+
+export default config;

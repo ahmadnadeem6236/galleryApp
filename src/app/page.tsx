@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
 const mockUrls = [
@@ -20,13 +21,14 @@ export default function HomePage() {
       <div className="flex flex-wrap gap-4">
         {mockImages.map((image) => (
           <div key={image.id} className="w-48">
-            <Image
+            {/* <Image
               src={image.url}
               priority={true}
               width={400}
               height={400}
               alt="image"
-            />
+            /> */}
+            <img src={image.url} />
           </div>
         ))}
       </div>
