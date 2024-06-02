@@ -24,6 +24,7 @@
     "postgres": "^3.4.4",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
+    "server-only": "^0.0.1",
     "uploadthing": "^6.12.0",
     "zod": "^3.23.3"
   },
@@ -47,5 +48,5 @@
   "ct3aMetadata": {
     "initVersion": "7.34.0"
   },
-  "packageManager": "pnpm@8.14.2"
+  "packageManager": "pnpm@9.1.4+sha256.30a1801ac4e723779efed13a21f4c39f9eb6c9fbb4ced101bce06b422593d7c9"
 }
